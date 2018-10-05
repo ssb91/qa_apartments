@@ -1,0 +1,33 @@
+<div class="col-md-6">
+  <h2 class="text-center">Add Apartment</h2>
+  
+  <form>
+
+  <div class="form-group">
+    <label for="name">Name:</label>
+    <input [(ngModel)]="apartment.name" placeholder="Name" name="name" class="form-control" id="name">
+  </div>
+
+  <div class="form-group">
+    <label for="address">Address:</label>
+    <input type="address" [(ngModel)]="apartment.address" placeholder="Address" name="address" class="form-control" id="address">
+  </div>
+
+  <div class="form-group">
+    <label for="estateAgent">Estate Agent:</label>
+    <input [(ngModel)]="apartment.estateAgent" placeholder="Estate Agent" name="estateAgent" class="form-control" id="estateAgent">
+  </div>
+  
+  <div class="form-group">
+    <label for="estateAgent">Date Available:</label>
+    <input [(ngModel)]="apartment.dateAvailable" placeholder="Date Available" name="dateAvailable" class="form-control" id="date">
+  </div>
+
+  <div class="form-group">
+    <label for="estateAgent">Price:</label>
+    <input [(ngModel)]="apartment.date" placeholder="Price" name="price" class="form-control" id="price">
+  </div>
+  
+  <button class="btn btn-success" (click)="createApartment()">Create</button>
+</form>
+</div>

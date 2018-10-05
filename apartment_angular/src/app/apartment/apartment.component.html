@@ -1,0 +1,28 @@
+<div class="col-md-6">
+
+<h2 class="text-center">Apartment Details</h2>
+
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th class="hidden">Id</th>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Esate Agent</th>
+    <th>Date Available</th>
+	<th>Price</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let apartment of apartments">
+    <td class="hidden">{{apartment.id}}</td>
+    <td>{{apartment.name}}</td>
+    <td>{{apartment.address}}</td>
+    <td>{{apartment.estateAgent}}</td>
+    <td>{{apartment.dateAvailable}}</td>
+    <td>{{apartment.price}}</td>
+    <td><button class="btn btn-danger" (click)="deleteApartment(apartment)"> Delete Apartment</button></td>
+  </tr>
+  </tbody>
+</table>
+</div>

@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: segoe ui;
+		}
+		
+text { 
+
+font-family: segoe ui;
+}
+
+textbox { 
+
+font-family: segoe ui;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+	color: black;		
+	}
+
+.main {
+    margin-left: 15%; 
+    padding: 0px 10px;
+}
